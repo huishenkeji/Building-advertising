@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>广告1</title>
+    <link href="TeleAd_1.css" media="screen" rel="stylesheet" />
+</head>
+<body onload="myFunction();">
+<div class="total">
+    <div class="main">
+        <div class="Video"><video id="oVideo" src="./src/video/1.mp4" preload="metadata" muted x5-playsinline="true" controls="controls"></video></div>
+        <div class="border_in"></div>
+        <div class="right">
+            <button class="title">我是广告</button>
+            <div class="right_title"><img src="./src/image/1.jpg" style="height: 100%"></div>
+        </div>
+    </div>
+    <div class="border_mid"></div>
+    <div class="bottom_text"><p>带嘎毫，我系渣渣辉，系凶地奏来砍我</p></div>
+</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/change_Ta.js"></script>
+	<script>
+		function myFunction (e) {
+			var video = document.getElementById("oVideo");
+			video.play();
+		}
+	</script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?d40ed2a88ec0c2ec43eec54e405dcf42";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</body>
+</html>
